@@ -19,7 +19,7 @@ const getDataImgProtein = async () => {
                 i++
                 i = i % images.length
             }, 4000)
-        }
+        }  
 
         selectedProteinImg(dataFromServer, 0)
 
