@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.slider-protein-item {
+    -webkit-animation: signal 4s infinite;
+    animation: signal 4s infinite;
+}
+
+@keyframes signal {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
